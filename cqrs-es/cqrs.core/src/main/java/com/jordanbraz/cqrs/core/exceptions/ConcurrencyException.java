@@ -1,2 +1,4 @@
-package com.jordanbraz.cqrs.core.exceptions;public class ConcurrencyException {
+package com.jordanbraz.cqrs.core.exceptions;
+
+public class ConcurrencyException extends RuntimeException{
 }

@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class FinidAccountWithBalanceQuery extends BaseQuery {
+public class FindAccountWithBalanceQuery extends BaseQuery {
     private EqualityType equalityType;
     private double balance;
 }

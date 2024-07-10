@@ -1,2 +1,11 @@
-package com.jordanbraz.account.query.api.queries;public class FinidAccountByIdQuery {
+package com.jordanbraz.account.query.api.queries;
+
+import com.jordanbraz.cqrs.core.queries.BaseQuery;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class FindAccountByIdQuery extends BaseQuery {
+    private String id;
 }

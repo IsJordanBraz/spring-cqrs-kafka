@@ -1,2 +1,4 @@
-package com.jordanbraz.cqrs.core.queries;public class BaseQuery {
+package com.jordanbraz.cqrs.core.queries;
+
+public abstract class BaseQuery {
 }

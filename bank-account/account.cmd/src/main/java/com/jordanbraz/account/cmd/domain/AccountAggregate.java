@@ -6,13 +6,16 @@ import com.jordanbraz.account.common.events.AccountOpenedEvent;
 import com.jordanbraz.account.common.events.FundsDepositedEvent;
 import com.jordanbraz.account.common.events.FundsWithdrawnEvent;
 import com.jordanbraz.cqrs.core.domain.AggregateRoot;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
 
 @NoArgsConstructor
 public class AccountAggregate extends AggregateRoot {
+    @Getter
     private Boolean active;
+    @Getter
     private double balance;
 
     public AccountAggregate(OpenAccountCommand command) {

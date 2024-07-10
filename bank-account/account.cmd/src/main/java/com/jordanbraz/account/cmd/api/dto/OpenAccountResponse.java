@@ -1,4 +1,4 @@
-package com.jordanbraz.account.cmd.api.commands.dto;
+package com.jordanbraz.account.cmd.api.dto;
 
 import com.jordanbraz.account.common.dto.BaseResponse;
 import lombok.AllArgsConstructor;

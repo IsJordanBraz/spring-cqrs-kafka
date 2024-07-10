@@ -1,2 +1,4 @@
-package com.jordanbraz.cqrs.core.domain;public class BaseEntity {
+package com.jordanbraz.cqrs.core.domain;
+
+public abstract class BaseEntity {
 }
