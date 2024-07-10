@@ -1,6 +1,8 @@
 # spring-cqrs-kafka
 Java Microservices: CQRS &amp; Event Sourcing with Kafka
 
+![Architecture](./image.png)
+
 ```
 docker run -it -d --name mongo-container -p 27017:27017 --network spring-cqrs-kafka --restart always -v mongodb_data_container:/data/db -d mongo:latest
 
